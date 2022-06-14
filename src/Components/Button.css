@@ -1,0 +1,27 @@
+button:hover{
+  background-color: aliceblue;
+  
+}
+
+button {
+  border-radius: 10px;
+  font-size: 1.5rem;
+}
+.base{
+  background-color: rgb(145, 58, 226);
+  color: azure;
+  
+}
+
+.base:hover{
+  background-color: black;
+}
+.cancel {
+  background-color: rgb(193, 233, 153);
+  color: black;
+}
+
+.cancel:hover {
+  background-color: black;
+  color: antiquewhite;
+}
