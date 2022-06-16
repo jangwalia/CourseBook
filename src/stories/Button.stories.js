@@ -14,7 +14,8 @@ export const Base = Template1.bind({});
 Base.args = {
   useClass : 'base',
   label : 'Add Course',
-  size : 'md'
+  size : 'md',
+  
  
  
 }
@@ -29,7 +30,8 @@ Cancel.args = {
 export const Disabled = Template1.bind({});
 Disabled.args = {
   useClass : 'disabled',
-  label : 'No Text',
-  size : 'md'
+  label : 'Enter Course',
+  size : 'md',
+  disabled : true
 }
 
