@@ -1,14 +1,14 @@
 import React from 'react'
-import CourseItem from './CourseItem'
+import Courseitem from './Courseitem'
 import './CourseItem.css'
-export default function CourseList({courses,name,handleClick}) {
+export default function CourseList({courses,name,setcourse}) {
   return (
-    <ul>
+    <ul className='courseContainer'>
       {courses.map(course => 
-      <CourseItem
+      <Courseitem
       key = {course.id}
       name = {course.name}
-      handleClick={()=>handleClick(course.name)}
+      setcourse={()=>console.log(course.name)}
       
       />)}
     </ul>

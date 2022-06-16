@@ -1,5 +1,10 @@
+
 ul li{
   list-style: none;
+}
+.courseContainer{
+  margin: 150px 500px;
+  width: 50%;
 }
 .courseName{
   width: 30%;
@@ -9,6 +14,7 @@ ul li{
   height: 70px;
   padding: 1rem;
   border-radius: 10px;
+  margin-top: 3rem;
   
 }
 
